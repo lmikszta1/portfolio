@@ -1,0 +1,12 @@
+@keyframes slideInUp {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.slideInUp {
+    animation: 1.5s ease-out 0s 1 slideInUp;
+}
