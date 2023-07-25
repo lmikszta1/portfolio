@@ -17,10 +17,10 @@ export default function Page(){
                 <p className="text-slate-300 text-6xl slideInUp delay-300" >PillPal</p>
                 <p className="text-slate-200 text-2xl mt-4 slideInUp delay-200">Introducing our Django-powered group project — a user-friendly web application developed in just one week. Seamlessly track your medications and check stock at nearby pharmacies. Simplify your health management with our intuitive interface, designed to empower users. Join us in revolutionizing medication management for everyone!</p>
                 <div className='flex gap-2 items-center slideInUp delay-150'>
-                    <Link href="https://github.com/lmikszta1/Project-2-Recipes" target='_blank'><IconButton aria-label="GitHub Link" variant="plain" sx={{ color: "#94a3b8", ":hover": {color: "#334155"} }} fontSize="large">
+                    <Link href="https://github.com/lmikszta1/pillpal" target='_blank'><IconButton aria-label="GitHub Link" variant="plain" sx={{ color: "#94a3b8", ":hover": {color: "#334155"} }} fontSize="large">
                         <GitHubIcon />
                     </IconButton></Link>
-                    <Link href="https://recipelists.fly.dev" target='_blank'><IconButton aria-label="Live Link" variant="plain" fontSize="large" sx={{ color: "#94a3b8", ":hover": {color: "#334155"} }}>
+                    <Link href="https://pillpal.onrender.com/" target='_blank'><IconButton aria-label="Live Link" variant="plain" fontSize="large" sx={{ color: "#94a3b8", ":hover": {color: "#334155"} }}>
                         <LaunchIcon />
                     </IconButton></Link>
                 </div>
