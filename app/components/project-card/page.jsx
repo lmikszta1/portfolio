@@ -6,7 +6,7 @@ import IconButton from '@mui/joy/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 
-export default function ProjectCard({ title, gitLink, liveLink, imgLink, hrefLink, description }){
+export default function ProjectCard({ title = "", gitLink = "", liveLink = "", imgLink = "", hrefLink = "", description = "" }){
     return (
         <>
             <Card variant="outlined" sx={{width: 320, padding: 1}} className="transition ease-in-out delay-100 bg-slate-400 hover:-translate-y-1 hover:scale-110 hover:bg-slate-200 duration-200 z-0" >
