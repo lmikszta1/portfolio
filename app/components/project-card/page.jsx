@@ -24,7 +24,7 @@ export default function ProjectCard({ title, gitLink, liveLink, imgLink, hrefLin
                         <img src={imgLink} loading="lazy" alt="" />
                     </AspectRatio>
                     <div className='flex justify-center mt-2'>
-                        <div className='flex justify-center bg-slate-500 w-16 rounded-md hover:bg-slate-400 font-roboto'>
+                        <div className='flex justify-center bg-slate-500 w-20 rounded-md hover:bg-slate-400 font-roboto'>
                             <Link href={hrefLink}>Details</Link>
                         </div>
                     </div>
