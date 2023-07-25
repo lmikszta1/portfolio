@@ -10,13 +10,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 export default function Home() {
     return (
         <div className='slideInUp'>
-            <div className='sticky top-0 slideInUp delay-500'>
-                <Nav />
-            </div>
+                <div className='sticky top-0 slideInUp delay-500 flex justify-center items-center'>
+                    <Nav />
+                </div>
             <div className='flex justify-center mt-5 slideInUp delay-300'>
                 <Image src={profilePic} width={225} height={100} alt="LM pic" className='rounded-full border-2 border-slate-300' quality={100}/>
             </div>
-            <h1 className="text-6xl text-slate-300 flex justify-center mt-5 font-roboto slideInUp delay-200">Luke Mikszta | Full Stack Developer</h1>
+            <h1 className="text-6xl text-slate-300 flex justify-center mt-5 font-roboto slideInUp delay-200 text-center">Luke Mikszta | Full Stack Developer</h1>
             <main className="flex min-h-max flex-col items-center justify-evenly p-7 text-slate-300">
                 <div className='justify-self-start text-center w-1/2 slideInUp delay-150'>
                     <p className='text-2xl font-roboto'>Welcome to my portfolio site!</p>
