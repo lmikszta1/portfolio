@@ -20,7 +20,7 @@ export default function Home() {
             <main className="flex min-h-max flex-col items-center justify-evenly p-7 text-slate-300">
                 <div className='justify-self-start text-center w-1/2 slideInUp delay-150'>
                     <p className='text-2xl font-roboto'>Welcome to my portfolio site!</p>
-                    <p className='text-xl font-roboto mt-5'>I'm a full stack developer currently based in Orlando, Florida and I'm looking for work! I'm willing to relocate or work remotely. If you are interested in working with me feel free to connect on LinkedIn and send me a message!</p>
+                    <p className='text-xl font-roboto mt-5'>I&apos;m a full stack developer currently based in Orlando, Florida and I&apos;m looking for work! I&apos;m willing to relocate or work remotely. If you are interested in working with me feel free to connect on LinkedIn and send me a message!</p>
                 </div>
                 <div className='mt-10 flex gap-5 slideInUp delay-0'>
                     <a href="https://www.linkedin.com/in/luke-mikszta/" target='_blank'><LinkedInIcon aria-label="LinkedIn" variant="plain" color="neutral" fontSize="large" sx={{ ":hover":{color: '#f8fafc'} }} /></a>

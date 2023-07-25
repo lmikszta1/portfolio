@@ -15,7 +15,7 @@ export default function Page(){
             </div>
             <main className="flex max-h-screen min-h-screen flex-col items-center justify-start p-10 gap-5 font-roboto text-center">
                 <p className="text-slate-300 text-6xl slideInUp delay-300" >Recipe Lists!</p>
-                <p className="text-slate-200 text-2xl mt-4 slideInUp delay-200">This is my second project I completed while at General Assembly, an Express.js web app, a culinary treasure! Pulling delicious recipes from TheMealDB API, you can curate personalized lists — favorites or least favorites — seamlessly. Explore recipes without logging in, and privately enjoy your custom lists. Join my gastronomic adventure on the live website and GitHub linked below! A blend of flavor and web mastery awaits. Let's cook up something extraordinary!.</p>
+                <p className="text-slate-200 text-2xl mt-4 slideInUp delay-200">This is my second project I completed while at General Assembly, an Express.js web app, a culinary treasure! Pulling delicious recipes from TheMealDB API, you can curate personalized lists — favorites or least favorites — seamlessly. Explore recipes without logging in, and privately enjoy your custom lists. Join my gastronomic adventure on the live website and GitHub linked below! A blend of flavor and web mastery awaits. Let&apos;s cook up something extraordinary!</p>
                 <div className='flex gap-2 items-center slideInUp delay-150'>
                     <Link href="https://github.com/lmikszta1/Project-2-Recipes" target='_blank'><IconButton aria-label="GitHub Link" variant="plain" sx={{ color: "#94a3b8", ":hover": {color: "#334155"} }} fontSize="large">
                         <GitHubIcon />
