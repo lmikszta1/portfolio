@@ -20,7 +20,7 @@ export default function Projects(){
 					<div className='sticky top-0 slideInUp delay-300 flex justify-center items-center z-10'>
                 		<Nav />
             		</div>
-					<h1 className="mb-0 flex justify-center text-slate-300 text-6xl mt-5 font-roboto slideInUp delay-200">My Projects</h1>
+					<h1 className="mb-0 flex justify-center text-slate-300 text-6xl mt-5 font-roboto slideInUp delay-200 text-center">My Projects</h1>
 					<main className="flex max-h-screen flex-wrap items-center justify-center m-10 gap-10 slideInUp delay-100">
 						<ProjectCard 
 							title={"Blackjack!"} 
